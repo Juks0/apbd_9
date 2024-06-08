@@ -1,0 +1,44 @@
+Index: ExampleTest1/ExampleTest1/GlobalUsings.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ExampleTest1/ExampleTest1/GlobalUsings.cs b/ExampleTest1/ExampleTest1/GlobalUsings.cs
+new file mode 100644
+--- /dev/null	(revision 01b5d2a2d93ce8ee467d24777fb8efc25257f5bf)
++++ b/ExampleTest1/ExampleTest1/GlobalUsings.cs	(revision 01b5d2a2d93ce8ee467d24777fb8efc25257f5bf)
+@@ -0,0 +1,3 @@
++// Global using directives
++
++global using Microsoft.Data.SqlClient;
+\ No newline at end of file
+Index: ExampleTest1/ExampleTest1/Repositories/AnimalsRepository.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ExampleTest1/ExampleTest1/Repositories/AnimalsRepository.cs b/ExampleTest1/ExampleTest1/Repositories/AnimalsRepository.cs
+--- a/ExampleTest1/ExampleTest1/Repositories/AnimalsRepository.cs	(revision 5f4a721bd0b2f5e706a80c66fd6a2bde0723345a)
++++ b/ExampleTest1/ExampleTest1/Repositories/AnimalsRepository.cs	(revision 01b5d2a2d93ce8ee467d24777fb8efc25257f5bf)
+@@ -1,5 +1,4 @@
+ using ExampleTest1.Models.DTOs;
+-using Microsoft.Data.SqlClient;
+ 
+ namespace ExampleTest1.Repositories;
+ 
+Index: ExampleTest1/ExampleTest1/appsettings.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ExampleTest1/ExampleTest1/appsettings.json b/ExampleTest1/ExampleTest1/appsettings.json
+--- a/ExampleTest1/ExampleTest1/appsettings.json	(revision 5f4a721bd0b2f5e706a80c66fd6a2bde0723345a)
++++ b/ExampleTest1/ExampleTest1/appsettings.json	(revision 01b5d2a2d93ce8ee467d24777fb8efc25257f5bf)
+@@ -7,6 +7,6 @@
+   },
+   "AllowedHosts": "*",
+   "ConnectionStrings": {
+-    "Default": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=apbd;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False"
++    "Default": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False"
+   }
+ }
