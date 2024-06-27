@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tB28OsVJ0sZwB3GtJU8/iXfHHKT0RsAOjdVOAeSsu1KVX0PGex/YhkT2ciemCJ8iEL9EDk2L7oYPgCflZjn9ng==",
+  "dgSpecHash": "cdWVZoAdIQPHHhlUPS38ymWL6P/mdVHENg04Sk4cht94quBqPsEzCaDZ1sIm9gSNcdfYs1bZqDmxD2Xz/x49NA==",
   "success": true,
-  "projectFilePath": "Z:\\SEMESTR 4\\APBD\\apbd_9\\ExampleTest1\\ExampleTest1\\ExampleTest1.csproj",
+  "projectFilePath": "C:\\Users\\kacpe\\Documents\\GitHub\\apbd_9\\ExampleTest1\\ExampleTest1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kacpe\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\kacpe\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
